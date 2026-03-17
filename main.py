@@ -2,6 +2,7 @@ from utils import add, divide
 
 def main():
     print("Program started...")  # змінений текст
+    print("Starting program...")
     a = int(input("Enter a: "))
     b = int(input("Enter b: "))
 
