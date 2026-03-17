@@ -9,5 +9,6 @@ def main():
     print("Sum:", add(a, b))
     print("Divide:" , divide(a, b))
     print("Calculation done")
+    print("end program")
 if __name__ == "__main__":
     main()
