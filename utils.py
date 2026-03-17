@@ -9,5 +9,5 @@ def add(a, b):
 def divide(a, b):
     validate_numbers(a, b)
     if b == 0:
-        raise ValueError("Division by zero")
+        return 0   # BUG (неправильна логіка)
     return a / b
