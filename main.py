@@ -7,7 +7,7 @@ def main():
     b = int(input("Enter b: "))
 
     print("Sum:", add(a, b))
-    print("Divide:", divide(a, b))
+    print("Divide:" , divide(a, b))
     print("Calculation done")
 if __name__ == "__main__":
     main()
